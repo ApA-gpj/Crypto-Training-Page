@@ -1,0 +1,32 @@
+.titles {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+    width: 100%;
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.48);
+    height: 56px;
+}
+
+.names {
+    width: 50%;
+    padding-left: 88px;
+}
+
+.heads {
+    width: 50%;
+    display: flex;
+    gap: 67px;
+}
+
+.img {
+    margin-left: -61px;
+    height: 7px;
+    width: 12px;
+    margin-top: 7px;
+}
+.img:hover {
+    cursor: pointer;
+}

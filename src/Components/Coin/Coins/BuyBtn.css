@@ -1,0 +1,40 @@
+.buy__section {
+    display: flex;
+    flex-direction: row;
+    gap: 33px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.buy {
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    width: 50px;
+    height: 40px;
+    background: rgba(37, 157, 168, 0.08);
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #259DA8;
+    transition: 0.3s;
+}
+.buy:hover {
+    cursor: pointer;
+    background: #259DA8;
+    color: white;
+}
+.view {
+    height: 16px;
+    width: 22px;
+}
+.view:hover {
+    cursor: pointer;
+}
